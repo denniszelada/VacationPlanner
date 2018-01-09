@@ -14,6 +14,9 @@
 		7E1E403F2004F2EA0074AA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E403D2004F2EA0074AA4D /* Main.storyboard */; };
 		7E1E404B2004F2EB0074AA4D /* VacationPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E404A2004F2EB0074AA4D /* VacationPlannerTests.swift */; };
 		7E1E40562004F2EB0074AA4D /* VacationPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E40552004F2EB0074AA4D /* VacationPlannerUITests.swift */; };
+		7E1E40642004F4F60074AA4D /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E40632004F4F60074AA4D /* TripListViewController.swift */; };
+		7E1E40662004F5900074AA4D /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E40652004F5900074AA4D /* TripDetailsViewController.swift */; };
+		7E1E40682004F5A70074AA4D /* TripNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E40672004F5A70074AA4D /* TripNotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		7E1E40512004F2EB0074AA4D /* VacationPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1E40552004F2EB0074AA4D /* VacationPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPlannerUITests.swift; sourceTree = "<group>"; };
 		7E1E40572004F2EB0074AA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1E40632004F4F60074AA4D /* TripListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
+		7E1E40652004F5900074AA4D /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		7E1E40672004F5A70074AA4D /* TripNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripNotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				7E1E40362004F2EA0074AA4D /* ViewController.swift */,
 				7E1E403B2004F2EA0074AA4D /* Assets.xcassets */,
 				7E1E403D2004F2EA0074AA4D /* Main.storyboard */,
+				7E1E40652004F5900074AA4D /* TripDetailsViewController.swift */,
+				7E1E40672004F5A70074AA4D /* TripNotesViewController.swift */,
+				7E1E40632004F4F60074AA4D /* TripListViewController.swift */,
 				7E1E40402004F2EA0074AA4D /* Info.plist */,
 				7E1E40412004F2EA0074AA4D /* VacationPlanner.entitlements */,
 				7E1E40382004F2EA0074AA4D /* VacationPlanner.xcdatamodeld */,
@@ -260,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1E40662004F5900074AA4D /* TripDetailsViewController.swift in Sources */,
+				7E1E40682004F5A70074AA4D /* TripNotesViewController.swift in Sources */,
 				7E1E40372004F2EA0074AA4D /* ViewController.swift in Sources */,
+				7E1E40642004F4F60074AA4D /* TripListViewController.swift in Sources */,
 				7E1E40352004F2EA0074AA4D /* AppDelegate.swift in Sources */,
 				7E1E403A2004F2EA0074AA4D /* VacationPlanner.xcdatamodeld in Sources */,
 			);
